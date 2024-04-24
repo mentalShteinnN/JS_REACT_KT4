@@ -1,0 +1,123 @@
+.stars {
+  display: flex;
+}
+
+.fa-star {
+font-size: 30px;
+margin: 0 auto;
+justify-content: center;
+}
+
+.fa-star.active,
+.fa-star.active-half {
+  color: orange;
+}
+
+.active-half:before {
+  content: '\f089';
+  position: absolute;
+  color: orange;
+  display: inline-flex;
+  width: 10px;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menuSelector{
+  text-decoration: none;
+}
+
+.header{
+  height: 180px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.menu_wrapper{
+  display: flex;
+  gap: 40px
+}
+
+.menu_wrapper > a {
+  font-size: 30px;
+}
+
+.fdc{
+  display: flex;
+  flex-direction: column;
+}
+
+.errImg{
+  width: 500px;
+}
+
+.ErrButton{
+  font-size: 30px;
+  margin: 10px;
+}
+
+.content{
+  display: flex;
+  padding: 100px 0px;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.ProductInfo{
+  align-self: center;
+  margin: 0 auto;
+  width: 30%;
+  border: 3px dotted orangered;
+}
+
+.ProdImg{
+  height: 300px;
+}
+
+.footer{
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer > p {
+  font-size: 35px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+li.ProductPreview {
+  width: 400px;
+  height: 150px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  padding: 10px;
+}
